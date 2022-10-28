@@ -62,9 +62,9 @@ Realize o login e autorize o acesso, vá ao Github e verifique o commit.
 Pronto!
 
 ATUALIZAÇÕES NO CÓDIGO:
-- Após realizar atualizações no código, basta realizar o procedimento abaixo:
-git status (vai exibir "modified: 'nome do arquivo'  
-git add "nome do arquivo.py"  
+- Após realizar atualizações no código, basta realizar o procedimento abaixo:  
+```git status``` (vai exibir "modified: 'nome do arquivo')  
+  git add "nome do arquivo.py"  
 git commit -m "Descrição da nova funcionalidade"  
 git push -u origin main
 
