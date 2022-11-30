@@ -68,6 +68,17 @@ Vai realizar a inclusão do arquivo na branch Master
 `git push --set-upstream origin master` (Vai solicitar o login do Github, caso seja o primeiro uso)  
 Vai definir a branch Master como padrão para realizar o push
 
+## .gitignore  
+`.gitignore` é um comando utilizado para criar um arquivo no qual você pode colocar caminhos do repositório que você não deseja exibir.  
+Para criar um .gitignore é necessário que os arquivos já estejam linkado ao repositório.  
+**Procedimento:**
+- Digite `touch .gitignore` no terminal do git  
+- Abra o arquivo **.gitignore** que foi criado e inclua o nome dos arquivos que não deseja que sejam exibidos.  
+- `nome_da_pasta/` - Caso seja uma pasta inteira  
+- `nome_do_arquivo` - Caso seja apenas um arquivo  
+- `nome_da_pasta/nome_do_arquivo` - Caso seja um arquivo dentro de uma pasta  
+
+
 **Pronto!**
 
 # ATUALIZAÇÕES NO CÓDIGO:
