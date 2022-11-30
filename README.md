@@ -55,10 +55,18 @@ Vai indicar que o arquivo deve ser incluido como Main e não Master
 `git push -u origin main`  
 Vai realizar a inclusão do arquivo na branch Main  
 
+`git push --set-upstream origin main` (Vai solicitar o login do Github, caso seja o primeiro uso)  
+Vai definir a branch Main como padrão para realizar o push
+
 ## MASTER
-`git push --set-upstream origin master`  
-(Vai solicitar o login do Github, caso seja o primeiro uso)  
-Realize o login e autorize o acesso, vá ao Github e verifique o commit.  
+`git branch master`  
+Vai indicar que o arquivo deve ser incluido como Master e não Main  
+
+`git push origin master`  
+Vai realizar a inclusão do arquivo na branch Master
+
+`git push --set-upstream origin master` (Vai solicitar o login do Github, caso seja o primeiro uso)  
+Vai definir a branch Master como padrão para realizar o push
 
 **Pronto!**
 
