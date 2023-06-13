@@ -1,0 +1,19 @@
+git branch <nome-da-branch>
+
+BRANCH
+- Este comando permite que você crie 'ramificações' dentro do código onde você pode criar um espaço especifico para a criação 
+de alguma funcionalidade.
+- É muito importante o uso das 'branchs' quando estamos trabalhando em grupo e em projetos com várias pessoas
+- Cada Branch vai conter um código, uma funcionalidade ou algo do tipo e posteriormente, quando o código estiver finalizado
+basta realizar a mesclagem desta branch com o código principal
+
+EXEMPLO:
+
+Visualizar as Branchs criadas -> git branch
+
+Criar uma nova branch -> git branch "tela_login"
+
+Alterar uma branch -> git checkout "nome da branch"
+
+- É de suma importancia que as branchs sejam especificadas de acordo com a funcionalidade que ela está sendo criada
+- Alterar o código principal para uma determinada funcionalidade pode ser perigoso e causar erros e defeitos no código em geral
