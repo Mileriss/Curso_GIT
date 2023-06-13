@@ -1,0 +1,22 @@
+INTERFACE GRÁFICA: git commit 
+
+MENSAGEM DIRETA: git commit -m "<mensagem>"
+
+COMMIT 
+- Este comando permite que a gente indique uma breve descrição sobre o arquivo que foi adicionado dentro do commit
+- Isso permite que o código fique atualizado e indique as ultimas alterações realizadas no arquivo
+- O commit é essencial no versionamento de códigos, sem ele não é possível transferir os arquivos criados, alterados e etc...
+
+EXEMPLO:
+
+Interface Gráfica -> git commit
+- Esse comando vai abrir uma interface especifica para visualizar os arquivos adicionados e permite incluir uma descrição 
+- Quando a interface abrir, é necessário seguir o procedimento abaixo para manipular os caracteres
+1 - Digite a letra "i" para liberar o manuseio do teclado
+2 - Todos os campos com "#" na frente serão ignorados, são utilizados como comentários
+3 - Digite a mensagem desejada no commit em qualquer campo que não contenha o simbolo "#"
+4 - Após digitar a mensagem desejada, clique no "ESC", digite ":wq" e pressione "ENTER" para retornar a aplicação normal
+
+Mensagem Direta -> git commit -m "<Alteração na linha 10>"
+- Este comando permite que você digite a mensagem diretamente no comando, sem necessidade de entrar na interface grafica do commit 
+
