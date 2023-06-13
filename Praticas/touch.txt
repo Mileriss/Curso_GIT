@@ -1,0 +1,13 @@
+touch <nome-arquivo.<extensão>>
+
+TOUCH 
+- É o comando utilizado para criarmos um arquivo no repositorio que foi inicializado no GIT
+- Não é necessário indicar o 'git' antes do comando, basta escrever 'touch' e o nome que desejar nomear o arquivo com a extensão
+
+EXEMPLO: 
+
+touch arquivo_de_texto.txt -> Vai criar um arquivo .txt
+touch arquivo_html.html -> Vai criar um arquivo .html
+touch arquivo_javascript.js -> Vai criar um arquivo .js
+touch arquivo_css.css -> Vai criar um arquivo .css
+...
