@@ -1,0 +1,17 @@
+touch .gitignore
+
+.GITIGNORE
+- Este comando vai criar um arquivo nomeado como ".gitignore" e ele permite que você oculte arquivos que contem no repositório
+que você não deseja que fique disponível para as outras pessoas
+- É possivel incluir arquivos de todos os tipos dentro do gitignore e ele vai ocultar o arquivo para qualquer pessoa (menos você)
+
+EXEMPLO:
+
+Criando o arquivo gitignore -> touch .gitignore
+- Após criar o arquivo, para conseguir ocultar as informações desejadas, basta que você inclua o nome do arquivo que não deseja mostrar
+dentro do arquivo .gitignore
+
+1 - Crie o arquivo ".gitignore"
+2 - Abra o arquivo e digite o nome dos arquivos que deseja esconder
+
+- Dessa forma os arquivos serão ignorados pelo git e eles não ficaram disponíveis para adicionar ou 'commitar'
