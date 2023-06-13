@@ -1,0 +1,15 @@
+USUÁRIO: git config --global user.name '<nome-de-usuário>'
+E-MAIL: git config --global email.name '<e-mail-de-usuário>'
+
+CONFIG
+- É um comando utilizado para configurar um usuário e um e-mail para o repositório que está sendo manipulado.
+- Quando essas informações são configuradas no repositorio, o git entende que aquele usuário é o proprietario 
+e que todas as alterações significativas serão realizadas através deste usuário configurado.
+
+EXEMPLO
+
+Usuário: 
+git config --global user.name 'Rafael Mileris'
+
+E-mail:
+git config --global email.name 'rafael@email.com'
