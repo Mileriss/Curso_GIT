@@ -1,0 +1,11 @@
+git rm --cached <nome-do-arquivo>
+
+RM --CACHED 
+- Esse comando serve para retirarmos um arquivo que foi adicionado anteriormente
+- Caso você crie um arquivo e adicione ele a algum commit por engano, basta utilizar o 'rm --cached <nome-do-arquivo>'
+e retirar ele do commit atual
+- Esse comando é muito importante para não indicar commits em arquivos fora do escopo necessário
+
+EXEMPLO:
+
+git rm --cached exemplo.txt
