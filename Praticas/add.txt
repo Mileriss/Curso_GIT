@@ -1,0 +1,13 @@
+git add <nome-do-arquivo>
+
+ADD 
+- Comando utilizado para adicionar arquivos que foram criados, modificados, excluidos e etc... dentro de um commit.
+- Este comando é essencial para realizar as inserções corretas e necessárias dentro de um commit
+
+EXEMPLO:
+
+Arquivo Unico: git add <teste.txt>
+
+Arquivos com a mesma extensão: git add *.txt -> Vai adicionar todos os arquivos com a extensão .txt no commit atual
+
+Todos os arquivos: git add .  -> Vai adicionar todos os arquivos dentro do commit
